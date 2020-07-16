@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./Header.js"
+import Header from "./Header.js";
+import Home from "./Home.js"
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <Switch>
           <Route path="/checkout">
+          <Header />
             <h1>CHECKOUT</h1>
           </Route>
           <Route path="/login">
@@ -16,7 +18,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
-            <h1>home</h1>
+            <Home />
           </Route>
         </Switch>
       </div>
