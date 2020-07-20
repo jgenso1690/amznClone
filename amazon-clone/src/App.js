@@ -3,7 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Header.js";
 import Home from "./Home.js";
-import Checkout from './Checkout.js'
+import Checkout from './Checkout';
+import Login from './Login';
 
 function App() {
   return (
@@ -13,7 +14,6 @@ function App() {
           <Route path="/checkout">
           <Header />
           <Checkout />
-            <h1>CHECKOUT</h1>
           </Route>
           <Route path="/login">
             <Login />

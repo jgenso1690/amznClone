@@ -1,5 +1,8 @@
 import React from 'react';
 import './CheckoutProduct.css';
+import { useStateValue } from './StateProvider';
+import { getBasketTotal } from './reducer';
+
 
 const CheckoutProduct = ({ id,title, image, price, rating}) => {
     const [{ basket }, dispatch] = useStateValue();
@@ -26,11 +29,11 @@ const CheckoutProduct = ({ id,title, image, price, rating}) => {
                       Array(rating)
                       .fill()
                       .map((ele, i) => (
-                        <p>⭐</p>
+                        <p id={ele}>⭐</p>
                       )) 
                     } 
                 </div>
-                <button onClick={removerFromBasket}>Remove from basket</button>
+                <button onClick={removeFromBasket}>Remove from basket</button>
             </div>
         </div>
     )

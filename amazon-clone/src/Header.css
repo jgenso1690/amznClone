@@ -38,6 +38,7 @@
 
 .header__optionbasket {
     display: flex;
+    align-items: center;
 
 }
 
