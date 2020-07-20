@@ -7,7 +7,7 @@ function Home() {
         <div className="home">
             <img 
             className="home__image"
-            src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt=""
+            src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/2020/PVD4719_GWMultititleJune2020/BRND_MTH20_00000_GWBleedingHero_1500x600_Final_en-US_PVD4719_Multi2._CB431171960_.jpg" alt=""
             />
 
             <div className="home__row">
