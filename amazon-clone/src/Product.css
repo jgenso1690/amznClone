@@ -1,11 +1,15 @@
 .product {
-    display:flex;
-    flex-direction: column;
-    max-height: 400px;
-    min-width: 100px;
-    background-color: white;
-    margin: 10px;
-    
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  min-width: 100px;
+  margin: 10px;
+  background-color: white;
+  z-index: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+  width: 100%;
 }
 
 .product__info {
@@ -23,10 +27,10 @@
 }
 
 .product > img {
-    max-height: 200px;
-    width: 100%;
-    object-fit: contain;
-    margin-bottom: 15px;
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
 }
 
 .product > button {
