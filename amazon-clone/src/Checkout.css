@@ -15,6 +15,14 @@
 .checkout__ad {
     width: 100%;
     margin-bottom: 10px;
+    object-fit: contain;
+    z-index: 100;
+    margin-bottom: 20px
     
+}
+
+.checkout__items {
+    display: flex;
+    flex-direction: column;
 }
 
